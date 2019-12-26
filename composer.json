@@ -1,0 +1,36 @@
+{
+    "name": "afragen/recipe-cpt",
+    "description": "Creates a recipe custom post type.",
+    "type": "wordpress-plugin",
+    "keywords": [
+        "custom post type"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andy Fragen",
+            "email": "andy@thefragens.com",
+            "homepage": "https://thefragens.com",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/afragen/recipe-cpt"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/afragen/recipe-cpt/issues",
+        "source": "https://github.com/afragen/recipe-cpt"
+    },
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fragen\\Recipe\\": "src/"
+        }
+    }
+}
