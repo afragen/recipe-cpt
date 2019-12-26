@@ -12,7 +12,7 @@ A recipe custom post type.
 
 ## Description
 
-This plugin creates a `recipe` custom post type and several associated taxonomies. I have made very simple classes to allow for the easier creation of the CPT and Taxonomies.
+This plugin creates a `recipe` custom post type and several associated taxonomies. I have made very simple classes to allow for the easier creation of the CPTs and Taxonomies.
 
 It is not i18n compliant.
 

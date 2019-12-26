@@ -17,20 +17,16 @@ class Bootstrap {
 	use Taxonomy;
 
 	/**
-	 * Load hooks that register CPTs and Taxonomies.
+	 * Load hook that registers CPTs and Taxonomies.
 	 *
 	 * @return void
 	 */
 	public function load_hooks() {
 		add_action(
 			'init',
-			function() {
+			function () {
 				$this->register_cpt( 'recipe', 'recipes', 'dashicons-cart', [] );
-			}
-		);
-		add_action(
-			'init',
-			function() {
+
 				$this->register_tax( 'cuisine', 'cuisines', 'recipe' );
 				$this->register_tax( 'meal', 'meals', 'recipe' );
 				$this->register_tax( 'ingredient', 'ingredients', 'recipe' );
