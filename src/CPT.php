@@ -19,18 +19,19 @@ trait CPT {
 	 * @param array  $taxes  Associated taxonomies for CPT.
 	 *                       Default is empty array.
 	 *
-	 * @return void
+	 * @return string $slug
 	 */
 	public function register_cpt( $single, $plural, $icon, $taxes = [] ) {
 		$single_cpt = ucwords( $single );
 		$plural_cpt = ucwords( $plural );
+		$slug       = strtolower( str_replace( ' ', '-', $single ) );
 
 		register_post_type(
-			strtolower( $single ),
+			$slug,
 			[
 				'label'         => $plural_cpt,
 				'labels'        => [
-					'name'          => $plural_tax,
+					'name'          => $plural_cpt,
 					'singular_name' => "$single_cpt",
 					'all_items'     => "All $plural_cpt",
 					'edit_item'     => "Edit $single_cpt",
@@ -64,5 +65,7 @@ trait CPT {
 				'taxonomies'    => $taxes,
 			]
 		);
+
+		return $slug;
 	}
 }
