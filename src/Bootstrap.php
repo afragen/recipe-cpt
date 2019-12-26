@@ -25,12 +25,12 @@ class Bootstrap {
 		add_action(
 			'init',
 			function () {
-				$this->register_cpt( 'recipe', 'recipes', 'dashicons-cart', [] );
+				$cpt_slug = $this->register_cpt( 'KJ recipe', 'KJ recipes', 'dashicons-cart' );
 
-				$this->register_tax( 'cuisine', 'cuisines', 'recipe' );
-				$this->register_tax( 'meal', 'meals', 'recipe' );
-				$this->register_tax( 'ingredient', 'ingredients', 'recipe' );
-				// $this->register_tax( 'sauce', 'sauces', 'recipe' );
+				$this->register_tax( 'cuisine', 'cuisines', $cpt_slug );
+				$this->register_tax( 'course', 'courses', $cpt_slug );
+				$this->register_tax( 'ingredient', 'ingredients', $cpt_slug );
+				// $this->register_tax( 'sauce', 'sauces', $cpt_slug );
 			}
 		);
 	}
