@@ -46,7 +46,7 @@ class Bootstrap {
 			'pre_get_posts',
 			function( $query ) {
 				if ( is_home() && $query->is_main_query() ) {
-					// $query->set( 'post_type', array_merge( [ 'post' ], $this->cpts ) );
+					$query->set( 'post_type', array_merge( [ 'post' ], $this->cpts ) );
 				}
 
 				return $query;
