@@ -1,7 +1,6 @@
 # Recipe CPT
 
  * Contributors: [Andy Fragen](https://github.com/afragen)
- * Tags: cpt
  * Stable tag: master
  * Plugin URI: https://food.thefragens.com/
  * License: MIT
@@ -12,7 +11,7 @@ A recipe custom post type.
 
 ## Description
 
-This plugin creates a `recipe` custom post type and several associated taxonomies. I have made very simple classes to allow for the easier creation of the CPTs and Taxonomies.
+This plugin creates a `recipe` custom post type and several associated taxonomies. It uses `composer install afragen/simple-cpt`.
 
 It is not i18n compliant.
 

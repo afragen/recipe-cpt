@@ -1,13 +1,13 @@
 <?php
 /**
- * Recipe Custom Post Type
+ * Simple CPT
  *
- * @package Recipe_CPT
+ * @package Simple_CPT
  * @author Andy Fragen
  * @license MIT
  */
 
-namespace Fragen\Recipe;
+namespace Fragen\Simple_CPT;
 
 trait Taxonomy {
 	/**

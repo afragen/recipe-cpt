@@ -4,75 +4,62 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9706a1fa71d9e777b1e5220a966288b1",
+    "content-hash": "e06e7fa3cea6e87982537c3fb79c707e",
     "packages": [
         {
-            "name": "johnbillion/extended-cpts",
-            "version": "4.3.2",
+            "name": "afragen/simple-cpt",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/johnbillion/extended-cpts.git",
-                "reference": "6446170b222869e1e0770c130ead47def5261b51"
+                "url": "https://github.com/afragen/simple-cpt.git",
+                "reference": "7bd110c7839243227e18648b5d43efcbdc8bfc04"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnbillion/extended-cpts/zipball/6446170b222869e1e0770c130ead47def5261b51",
-                "reference": "6446170b222869e1e0770c130ead47def5261b51",
+                "url": "https://api.github.com/repos/afragen/simple-cpt/zipball/7bd110c7839243227e18648b5d43efcbdc8bfc04",
+                "reference": "7bd110c7839243227e18648b5d43efcbdc8bfc04",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.0"
-            },
-            "require-dev": {
-                "automattic/phpcs-neutron-standard": "^1.5",
-                "dealerdirect/phpcodesniffer-composer-installer": "^0.5",
-                "johnbillion/falsey-assertequals-detector": "^2",
-                "johnbillion/php-docs-standards": "^1",
-                "phpcompatibility/phpcompatibility-wp": "^2",
-                "phpunit/phpunit": "^6",
-                "roots/wordpress": "*",
-                "vlucas/phpdotenv": "^3",
-                "wp-cli/wp-cli-bundle": "^2.1",
-                "wp-coding-standards/wpcs": "^2",
-                "wp-phpunit/wp-phpunit": "*"
-            },
-            "suggest": {
-                "seravo/wp-custom-bulk-actions": "Custom Bulk Actions",
-                "wpackagist-plugin/rewrite-testing": "Rewrite Rule Testing"
+                "php": ">=7.0"
             },
             "type": "library",
-            "extra": {
-                "wordpress-install-dir": "tests/wordpress"
-            },
             "autoload": {
                 "psr-4": {
-                    "ExtCPTs\\Tests\\": "tests/phpunit"
-                },
-                "files": [
-                    "extended-cpts.php"
-                ]
+                    "Fragen\\Simple_CPT\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-2.0+"
+                "MIT"
             ],
             "authors": [
                 {
-                    "name": "John Blackbourn",
-                    "homepage": "https://johnblackbourn.com/"
+                    "name": "Andy Fragen",
+                    "email": "andy@thefragens.com",
+                    "homepage": "https://thefragens.com",
+                    "role": "Developer"
                 }
             ],
-            "description": "A library which provides extended functionality to WordPress custom post types and taxonomies.",
-            "homepage": "https://github.com/johnbillion/extended-cpts/",
-            "time": "2019-08-25T21:14:07+00:00"
+            "description": "Register a simple Custom Post Type and Taxonomies.",
+            "keywords": [
+                "custom post type",
+                "taxonomy"
+            ],
+            "time": "2020-04-25T04:21:29+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
-    "prefer-stable": false,
+    "stability-flags": {
+        "afragen/simple-cpt": 20
+    },
+    "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": []
+    "platform": {
+        "php": ">=7.0"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }

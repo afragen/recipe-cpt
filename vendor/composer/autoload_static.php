@@ -9,14 +9,14 @@ class ComposerStaticInit6a63a62279bec8ed97bdb09e578104b4
     public static $prefixLengthsPsr4 = array (
         'F' => 
         array (
-            'Fragen\\Recipe\\' => 14,
+            'Fragen\\Simple_CPT\\' => 18,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Fragen\\Recipe\\' => 
+        'Fragen\\Simple_CPT\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src',
+            0 => __DIR__ . '/..' . '/afragen/simple-cpt/src',
         ),
     );
 

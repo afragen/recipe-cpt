@@ -1,13 +1,13 @@
 <?php
 /**
- * Recipe Custom Post Type
+ * Simple CPT
  *
- * @package Recipe_CPT
+ * @package Simple_CPT
  * @author Andy Fragen
  * @license MIT
  */
 
-namespace Fragen\Recipe;
+namespace Fragen\Simple_CPT;
 
 trait CPT {
 	/**
@@ -49,6 +49,7 @@ trait CPT {
 				'show_ui'       => true,
 				'show_in_rest'  => true,
 
+				// phpcs:disable Squiz.PHP.CommentedOutCode.Found
 				'supports'      => [
 					'title',
 					'editor',
@@ -62,6 +63,7 @@ trait CPT {
 					'custom-fields',
 					'post-formats',
 				],
+				// phpcs:enable
 				'taxonomies'    => $taxes,
 			]
 		);
