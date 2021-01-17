@@ -12,7 +12,7 @@
  * Plugin URI:        https://github.com/afragen/recipe-cpt/
  * Description:       Add a recipe custom post type.
  * Author:            Andy Fragen
- * Version:           0.3.0
+ * Version:           0.3.1
  * Network:           true
  * Author URI:        https://food.thefragens.com/
  * Text Domain:       recipe-cpt

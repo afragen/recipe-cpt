@@ -12,17 +12,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/afragen/simple-cpt.git",
-                "reference": "7bd110c7839243227e18648b5d43efcbdc8bfc04"
+                "reference": "c9a091e9e1dc26036c41e3e8d06a541504fdabb7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afragen/simple-cpt/zipball/7bd110c7839243227e18648b5d43efcbdc8bfc04",
-                "reference": "7bd110c7839243227e18648b5d43efcbdc8bfc04",
+                "url": "https://api.github.com/repos/afragen/simple-cpt/zipball/c9a091e9e1dc26036c41e3e8d06a541504fdabb7",
+                "reference": "c9a091e9e1dc26036c41e3e8d06a541504fdabb7",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.0"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -46,7 +47,11 @@
                 "custom post type",
                 "taxonomy"
             ],
-            "time": "2020-04-25T04:21:29+00:00"
+            "support": {
+                "issues": "https://github.com/afragen/simple-cpt/issues",
+                "source": "https://github.com/afragen/simple-cpt"
+            },
+            "time": "2021-01-17T17:25:19+00:00"
         }
     ],
     "packages-dev": [],
@@ -61,5 +66,5 @@
         "php": ">=7.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.0.0"
 }

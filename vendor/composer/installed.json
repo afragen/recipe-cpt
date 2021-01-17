@@ -1,46 +1,56 @@
-[
-    {
-        "name": "afragen/simple-cpt",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/afragen/simple-cpt.git",
-            "reference": "7bd110c7839243227e18648b5d43efcbdc8bfc04"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/afragen/simple-cpt/zipball/7bd110c7839243227e18648b5d43efcbdc8bfc04",
-            "reference": "7bd110c7839243227e18648b5d43efcbdc8bfc04",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=7.0"
-        },
-        "time": "2020-04-25T04:21:29+00:00",
-        "type": "library",
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Fragen\\Simple_CPT\\": "src/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Andy Fragen",
-                "email": "andy@thefragens.com",
-                "homepage": "https://thefragens.com",
-                "role": "Developer"
-            }
-        ],
-        "description": "Register a simple Custom Post Type and Taxonomies.",
-        "keywords": [
-            "custom post type",
-            "taxonomy"
-        ]
-    }
-]
+{
+    "packages": [
+        {
+            "name": "afragen/simple-cpt",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/afragen/simple-cpt.git",
+                "reference": "c9a091e9e1dc26036c41e3e8d06a541504fdabb7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/afragen/simple-cpt/zipball/c9a091e9e1dc26036c41e3e8d06a541504fdabb7",
+                "reference": "c9a091e9e1dc26036c41e3e8d06a541504fdabb7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "time": "2021-01-17T17:25:19+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Fragen\\Simple_CPT\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andy Fragen",
+                    "email": "andy@thefragens.com",
+                    "homepage": "https://thefragens.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Register a simple Custom Post Type and Taxonomies.",
+            "keywords": [
+                "custom post type",
+                "taxonomy"
+            ],
+            "support": {
+                "issues": "https://github.com/afragen/simple-cpt/issues",
+                "source": "https://github.com/afragen/simple-cpt"
+            },
+            "install-path": "../afragen/simple-cpt"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
