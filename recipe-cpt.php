@@ -33,7 +33,7 @@ if ( ! defined( 'WPINC' ) ) {
 }
 
 require_once __DIR__ . '/vendor/autoload.php';
-$cpt = [ 'KJ Recipe', 'KJ Recipes', 'dashicons-cart' ];
-$tax = [ [ 'cuisine', 'cuisines' ], [ 'course', 'courses' ], [ 'ingredient', 'ingredients' ] ];
+$recipe_cpt = [ 'KJ Recipe', 'KJ Recipes', 'dashicons-cart' ];
+$recipe_tax = [ [ 'cuisine', 'cuisines' ], [ 'course', 'courses' ], [ 'ingredient', 'ingredients' ] ];
 
-( new Bootstrap( $cpt, $tax ) )->load_hooks();
+( new Bootstrap( $recipe_cpt, $recipe_tax ) )->load_hooks();
