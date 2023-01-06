@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/afragen/simple-cpt.git",
-                "reference": "c9a091e9e1dc26036c41e3e8d06a541504fdabb7"
+                "reference": "0b4ffc935d8286811260736863f04274e59bd031"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afragen/simple-cpt/zipball/c9a091e9e1dc26036c41e3e8d06a541504fdabb7",
-                "reference": "c9a091e9e1dc26036c41e3e8d06a541504fdabb7",
+                "url": "https://api.github.com/repos/afragen/simple-cpt/zipball/0b4ffc935d8286811260736863f04274e59bd031",
+                "reference": "0b4ffc935d8286811260736863f04274e59bd031",
                 "shasum": ""
             },
             "require": {
@@ -51,7 +51,7 @@
                 "issues": "https://github.com/afragen/simple-cpt/issues",
                 "source": "https://github.com/afragen/simple-cpt"
             },
-            "time": "2021-01-17T17:25:19+00:00"
+            "time": "2023-01-06T05:58:36+00:00"
         }
     ],
     "packages-dev": [],
@@ -66,5 +66,5 @@
         "php": ">=7.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.3.0"
 }
