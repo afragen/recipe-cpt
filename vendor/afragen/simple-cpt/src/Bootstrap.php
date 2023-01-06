@@ -72,14 +72,14 @@ class Bootstrap {
 			}
 		);
 
-		// Add CPT to main RSS feed.
+		// Add CPTs to main RSS feed.
 		add_filter(
 			'request',
 			function( $query ) {
-				if ( isset( $query['feed'] ) && ! isset( $query['post_type'] ) ) {
-					$query['post_type'] = [ 'post', $this->cpt['slug'] ];
-					return $query;
+				if ( isset( $query['feed'] ) ) {
+					$query['post_type'] = get_post_types();
 				}
+				return $query;
 			}
 		);
 	}

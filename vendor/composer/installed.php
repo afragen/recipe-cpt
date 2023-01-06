@@ -3,7 +3,7 @@
         'name' => 'afragen/recipe-cpt',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '5526bba216f8ed6bb7eb168cce058a93ae9f5e2f',
+        'reference' => '329f9ea53b844ff35561bc3e239352a857aacf68',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'afragen/recipe-cpt' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '5526bba216f8ed6bb7eb168cce058a93ae9f5e2f',
+            'reference' => '329f9ea53b844ff35561bc3e239352a857aacf68',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -22,7 +22,7 @@
         'afragen/simple-cpt' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '0b4ffc935d8286811260736863f04274e59bd031',
+            'reference' => '615dbf36999a45f39a706651e757eb9ed6f8ecf3',
             'type' => 'library',
             'install_path' => __DIR__ . '/../afragen/simple-cpt',
             'aliases' => array(
